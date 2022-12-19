@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="id" class="sr overflow-x-hidden scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/Logo.png" />
+    <title>Figo Restaurant</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex items-center justify-between px-6 sm:px-8 lg:px-16 xl:px-24">
+        <a href="#">
+          <img src="./assets/Logo.png" alt="" class="w-14" />
+        </a>
+        <button class="mobile-nav-toggle" aria-controls="primary-controls" aria-expanded="false">
+          <span class="sr-only"></span>
+        </button>
+        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation font-fira flex gap-4 text-dark-250 sm:items-center sm:gap-0">
+            <li class="m-0 text-dark sm:mr-8"><a href="#">Home</a></li>
+            <li class="m-0 sm:mr-8"><a href="#">Menu</a></li>
+            <li class="m-0 sm:mr-8"><a href="#">Service</a></li>
+            <li class="m-0 sm:mr-8"><a href="#">Sign In</a></li>
+            <li><img class="w-5 cursor-pointer" src="./assets/Bag.png" alt="cart" /></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container grid-cols-[1.75fr,_1.75fr] items-center p-6 sm:px-8 md:grid md:gap-16 lg:px-16 xl:gap-20 xl:px-24">
+        <div class="mb-10 md:mb-0">
+          <h1 class="mb-5 text-4xl leading-[2.75rem] text-dark lg:mb-6 lg:text-5xl lg:leading-[3.5rem] xl:text-6xl xl:leading-[4.5rem]">All in Good Taste Food With Figo.</h1>
+          <p class="mb-6 text-dark-500 lg:mb-8">Quickly predominate standard compliant architecture and may have prospective internal or organic sources.</p>
+          <form class="flex gap-4 rounded-lg">
+            <input class="w-[65%] rounded-sm bg-white py-3 px-6 text-sm shadow-md outline-none lg:w-[70%]" type="text" placeholder="Enter Your Address" />
+            <button class="w-[35%] rounded-sm from-[#8AB35D] to-primary text-sm font-medium text-white shadow-md bg-gradient-45 lg:w-[30%]">Get Started</button>
+          </form>
+        </div>
+        <div>
+          <img src="./assets/PIzza.png" alt="" />
+        </div>
+      </section>
+
+      <section class="container grid grid-cols-1 items-center gap-10 px-6 py-20 sm:px-8 md:grid-cols-[1.75fr,_1.75fr] md:gap-16 lg:px-16 xl:px-24">
+        <div class="order-2 md:order-1">
+          <img src="./assets/Chef.png" alt="" />
+        </div>
+        <div class="order-1 md:order-2">
+          <p class="mb-2 text-xl text-secondary">Welcome</p>
+          <h2 class="mb-4 text-3xl">Welcome to Figo Restaurant</h2>
+          <p class="mb-4">Quickly predominate standard compliant architecture and may have prospective internal or organic sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+          <p class="mb-6">Quickly predominate standard compliant architecture and may have prospective internal or organic sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+          <a href="#" class="inline-block rounded-sm from-[#8AB35D] to-primary py-4 px-6 text-sm font-medium text-white shadow-md bg-gradient-45">Explore Our Story</a>
+        </div>
+      </section>
+
+      <section class="container px-6 py-20 sm:px-8 md:gap-16 lg:px-16 xl:px-24">
+        <div>
+          <p class="mb-2 text-center text-xl text-secondary">Reason</p>
+          <h2 class="mb-12 text-center text-3xl">Why Choose Us?</h2>
+          <div class="flex flex-col justify-center gap-6 md:flex-row">
+            <div class="animated-underline flex scale-100 cursor-pointer flex-col items-center justify-center rounded-sm bg-background py-8 px-6 hover:scale-[1.01]">
+              <img src="./assets/menu.png" class="mb-6 h-14" alt="" />
+              <h3 class="mb-2 text-xl">Various Menus</h3>
+              <p class="text-center">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</p>
+            </div>
+            <div class="animated-underline flex scale-100 cursor-pointer flex-col items-center justify-center rounded-sm bg-background py-8 px-6 hover:scale-[1.01]">
+              <img src="./assets/scooter.png" class="mb-6 h-14" alt="" />
+              <h3 class="mb-2 text-xl">Pocket Friendly Delivery</h3>
+              <p class="text-center">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</p>
+            </div>
+            <div class="animated-underline flex scale-100 cursor-pointer flex-col items-center justify-center rounded-sm bg-background py-8 px-6 hover:scale-[1.01]">
+              <img src="./assets/voucher.png" class="mb-6 h-14" alt="" />
+              <h3 class="mb-2 text-xl">Best Offers</h3>
+              <p class="text-center">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container px-6 py-20 sm:px-8 md:gap-16 lg:px-16 xl:px-24">
+        <p class="mb-2 text-center text-xl text-secondary">Browse</p>
+        <h2 class="mb-12 text-center text-3xl">Explore Our Menu</h2>
+
+        <div class="flex flex-col items-start justify-between lg:flex-row">
+          <ul class="nav nav-tabs mx-auto mb-8 flex w-full list-none flex-row overflow-x-scroll border-b-0 pl-0 lg:mr-16 lg:w-auto lg:flex-col lg:overflow-hidden" id="tabs-tabVertical" role="tablist">
+            <li class="nav-item flex-grow" role="presentation">
+              <a
+                href="#tabs-homeVertical"
+                class="nav-link active block border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 font-medium leading-tight hover:border-transparent hover:bg-gray-100 focus:border-transparent lg:border-l-2 lg:border-b-0"
+                id="tabs-home-tabVertical"
+                data-bs-toggle="pill"
+                data-bs-target="#tabs-breakfast"
+                role="tab"
+                aria-controls="tabs-breakfast"
+                aria-selected="true"
+                >Breakfast</a
+              >
+            </li>
+            <li class="nav-item flex-grow" role="presentation">
+              <a
+                href="#tabs-profileVertical"
+                class="nav-link border-b2 block border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 font-medium leading-tight hover:border-transparent hover:bg-gray-100 focus:border-transparent lg:border-l-2 lg:border-b-0"
+                id="tabs-profile-tabVertical"
+                data-bs-toggle="pill"
+                data-bs-target="#tabs-lunch"
+                role="tab"
+                aria-controls="tabs-lunch"
+                aria-selected="false"
+                >Lunch</a
+              >
+            </li>
+            <li class="nav-item flex-grow" role="presentation">
+              <a
+                href="#tabs-messagesVertical"
+                class="nav-link border-b2 block border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 font-medium leading-tight hover:border-transparent hover:bg-gray-100 focus:border-transparent lg:border-l-2 lg:border-b-0"
+                id="tabs-messages-tabVertical"
+                data-bs-toggle="pill"
+                data-bs-target="#tabs-dinner"
+                role="tab"
+                aria-controls="tabs-dinner"
+                aria-selected="false"
+                >Dinner</a
+              >
+            </li>
+            <li class="nav-item flex-grow" role="presentation">
+              <a
+                href="#tabs-messagesVertical"
+                class="nav-link border-b2 block border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 font-medium leading-tight hover:border-transparent hover:bg-gray-100 focus:border-transparent lg:border-l-2 lg:border-b-0"
+                id="tabs-messages-tabVertical"
+                data-bs-toggle="pill"
+                data-bs-target="#tabs-dessert"
+                role="tab"
+                aria-controls="tabs-dessert"
+                aria-selected="false"
+                >Dessert</a
+              >
+            </li>
+            <li class="nav-item flex-grow" role="presentation">
+              <a
+                href="#tabs-messagesVertical"
+                class="nav-link border-b2 block border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 font-medium leading-tight hover:border-transparent hover:bg-gray-100 focus:border-transparent lg:border-l-2 lg:border-b-0"
+                id="tabs-messages-tabVertical"
+                data-bs-toggle="pill"
+                data-bs-target="#tabs-soups"
+                role="tab"
+                aria-controls="tabs-soups"
+                aria-selected="false"
+                >Soups</a
+              >
+            </li>
+            <li class="nav-item flex-grow" role="presentation">
+              <a
+                href="#tabs-messagesVertical"
+                class="nav-link border-b2 block border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 font-medium leading-tight hover:border-transparent hover:bg-gray-100 focus:border-transparent lg:border-l-2 lg:border-b-0"
+                id="tabs-messages-tabVertical"
+                data-bs-toggle="pill"
+                data-bs-target="#tabs-drinks"
+                role="tab"
+                aria-controls="tabs-drinks"
+                aria-selected="false"
+                >Drinks</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content mx-auto" id="tabs-tabContentVertical">
+            <div class="tab-pane fade show active" id="tabs-breakfast" role="tabpanel" aria-labelledby="tabs-breakfast">
+              <div class="flex flex-col justify-center gap-6 md:flex-row">
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Salmon Steak</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Grilled Chicken BBQ</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Spinach.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Spinach Sandwich</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabs-lunch" role="tabpanel" aria-labelledby="tabs-lunch">
+              <div class="flex flex-col justify-center gap-6 md:flex-row">
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Salmon Steak</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Grilled Chicken BBQ</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Spinach.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Spinach Sandwich</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabs-dinner" role="tabpanel" aria-labelledby="tabs-dinner">
+              <div class="flex flex-col justify-center gap-6 md:flex-row">
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Salmon Steak</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Grilled Chicken BBQ</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Spinach.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Spinach Sandwich</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabs-dessert" role="tabpanel" aria-labelledby="tabs-dessert">
+              <div class="flex flex-col justify-center gap-6 md:flex-row">
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Salmon Steak</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Grilled Chicken BBQ</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Spinach.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Spinach Sandwich</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabs-soups" role="tabpanel" aria-labelledby="tabs-soups">
+              <div class="flex flex-col justify-center gap-6 md:flex-row">
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Salmon Steak</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Grilled Chicken BBQ</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Spinach.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Spinach Sandwich</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabs-drinks" role="tabpanel" aria-labelledby="tabs-drinks">
+              <div class="flex flex-col justify-center gap-6 md:flex-row">
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Salmon Steak</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Chicken.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Grilled Chicken BBQ</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="rounded-md shadow-[0_8px_24px_0_rgba(149,157,165,0.2)]">
+                  <a href="#" class="inline-block px-8 py-4">
+                    <img src="./assets/Spinach.png" class="mb-2 w-56" alt="" />
+                    <h3 class="mb-1 text-center text-xl">Spinach Sandwich</h3>
+                    <div class="mb-3 flex items-center justify-center gap-x-1">
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                      <img src="./assets/Star.png" class="w-4" alt="" />
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                      <p class="text-xl text-primary">$100</p>
+                      <p class="text-dark-250 line-through">20</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container grid grid-cols-1 items-center gap-10 px-6 py-20 sm:px-8 md:grid-cols-[1.75fr,_1.5fr] md:gap-16 lg:px-16 xl:px-24">
+        <div class="order-1 md:order-2">
+          <img src="./assets/Burger.png" alt="" />
+        </div>
+        <div class="order-2 md:order-1">
+          <p class="mb-2 text-xl text-secondary">History of Figo</p>
+          <h2 class="mb-4 text-3xl">We Cook Tradition & Family Recipes</h2>
+          <p class="mb-4">Quickly predominate standard compliant architecture and may have prospective internal or organic sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+          <p class="mb-6">Quickly predominate standard compliant architecture and may have prospective internal or organic sources.</p>
+          <a href="#" class="inline-block rounded-sm from-[#8AB35D] to-primary py-4 px-6 text-sm font-medium text-white shadow-md bg-gradient-45">Explore Our Story</a>
+        </div>
+      </section>
+
+      <section class="container px-6 py-20 sm:px-8 md:gap-16 lg:px-16 xl:px-24">
+        <div>
+          <p class="mb-2 text-center text-xl text-secondary">News</p>
+          <h2 class="mb-12 text-center text-3xl">latest News</h2>
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div>
+              <img src="./assets/Food1.png" class="mb-4" alt="" />
+              <h3 class="mb-3 text-xl">Spain Appetizer</h3>
+              <p class="mb-2">Quickly of predominate and standards compliants and an architectures.</p>
+              <a href="#" class="font-semibold text-secondary">Read More</a>
+            </div>
+            <div>
+              <img src="./assets/Food2.png" class="mb-4" alt="" />
+              <h3 class="mb-3 text-xl">Wine And Cheese</h3>
+              <p class="mb-2">Quickly of predominate and standards compliants and an architectures.</p>
+              <a href="#" class="font-semibold text-secondary">Read More</a>
+            </div>
+            <div>
+              <img src="./assets/Food3.png" class="mb-4" alt="" />
+              <h3 class="mb-3 text-xl">Cups Of Coffee</h3>
+              <p class="mb-2">Quickly of predominate and standards compliants and an architectures.</p>
+              <a href="#" class="font-semibold text-secondary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container px-6 py-12 sm:px-8 lg:px-16 xl:px-24">
+        <p class="mb-2 text-center text-xl text-secondary">Subscription</p>
+        <h2 class="mb-12 text-center text-3xl">Wants to Get Update?</h2>
+        <form action="" class="relative mx-auto flex max-w-md items-center justify-center">
+          <input type="text" class="w-full rounded-full py-3 px-6 shadow-lg outline-none" placeholder="Enter Your Email Address" />
+          <button class="absolute right-2 h-10 w-10 rounded-full from-primary to-[#8AB35D] bg-gradient-45"><i class="bx bx-right-arrow-alt text-xl text-white"></i></button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="bg-background">
+      <div class="container grid grid-cols-1 gap-6 px-6 py-12 sm:grid-cols-2 sm:px-8 lg:grid-cols-4 lg:px-16 xl:px-24">
+        <div>
+          <h4 class="mb-4 text-lg">Our Menu</h4>
+          <p class="mb-2 text-dark-500">Lunch</p>
+          <p class="mb-2 text-dark-500">Dinner</p>
+          <p class="mb-2 text-dark-500">Catering</p>
+        </div>
+        <div>
+          <h4 class="mb-5 text-lg">Links</h4>
+          <p class="mb-2 text-dark-500">About Us</p>
+          <p class="mb-2 text-dark-500">Terms Of Use</p>
+          <p class="mb-2 text-dark-500">Privacy Policy</p>
+        </div>
+        <div>
+          <h4 class="mb-5 text-lg">Contact</h4>
+          <p class="mb-2 text-dark-500">+8801622010442</p>
+          <p class="mb-2 text-dark-500">info@restaurant.com</p>
+          <p class="mb-2 text-dark-500">Daudkandi, Comilla</p>
+        </div>
+        <div>
+          <img src="./assets/Logo.png" class="mb-4 w-14" alt="" />
+          <p class="mb-4">Don't miss to subscribe to our new feeds, Kindly fill the form below.</p>
+          <div class="flex gap-x-4">
+            <a href="#" class="rounded-md from-primary to-[#8AB35D] px-[10px] py-2 bg-gradient-45">
+              <i class="bx bxl-facebook text-lg leading-none text-white"></i>
+            </a>
+            <a href="#" class="rounded-md from-primary to-[#8AB35D] px-[10px] py-2 bg-gradient-45">
+              <i class="bx bxl-twitter text-lg leading-none text-white"></i>
+            </a>
+            <a href="#" class="rounded-md from-primary to-[#8AB35D] px-[10px] py-2 bg-gradient-45">
+              <i class="bx bxl-instagram text-lg leading-none text-white"></i>
+            </a>
+            <a href="#" class="rounded-md from-primary to-[#8AB35D] px-[10px] py-2 bg-gradient-45">
+              <i class="bx bxl-pinterest-alt text-lg leading-none text-white"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
